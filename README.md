@@ -22,6 +22,9 @@
 - Non-industry workers looking to transition.
 - HR departments looking to create Bespoke training for their manufacturing company or fund private course intakes for employers.
 
+## User Stories
+ 1. As a graduate would like easy access to course enquiry forms as quciky
+
 # Website Layout Planning
 
 ## Palette: 
@@ -82,5 +85,6 @@
 - CRM Sync
 - Multiple lanaguage support for expansion to International Students
 - LMS Integration
+
 
 
