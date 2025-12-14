@@ -1,13 +1,27 @@
 ﻿# lifesci-skills-academy
 
- ## Business Goals
- - Build a easily navigable website that provide users with information on courses and webinar and easy access to enquiry and registration forms.
-### Primary Users
- - Generate leads for potential students
- - Generate contacts for business development, provide industry training.
- 
+## Primary Goals:
+ - Showcase range of programs in life sciences manufacturing offered by LifeSciSkills Academy
+ - Generate leads for potential students and contacts for B2B development.
+
+## Business Goals
+ - Generate Course enrolment via multiple nurturing pathways.
+ - Generate B2B partnerships.
+ - Build Brand Awareness.
+
 ## User Needs
-- 
+- Easily navigable website with intuitive form discovery.Reached in 3 clicks or less
+- Multiple Enrolment pathways to start journey to student. Reached in 3 clicks or less
+- Direct enquiry form access.
+- Access to career guidance and invite to webinar and open days to start nurturing journey.
+- Provide contact point for potential industry contracts to develop bespoke training for employees or potentially fund an intake of a course for employees
+
+## User Personas
+- Science and engineering graduates looking to upskill for life manufacturing industry.
+- Industry workers without quallification looking to certify and advance their careers.
+- Non-industry workers looking to transition.
+- HR departments looking to create Bespoke training for their manufacturing company or fund private course intakes for employers.
+
 # Website Layout Planning
 
 ## Palette: 
@@ -64,5 +78,9 @@
 -Contact Us - Career Advice
 -Social media links
 
+## Future Expansion
+- CRM Sync
+- Multiple lanaguage support for expansion to International Students
+- LMS Integration
 
 
