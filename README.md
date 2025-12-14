@@ -23,8 +23,23 @@
 - HR departments looking to create Bespoke training for their manufacturing company or fund private course intakes for employers.
 
 ## User Stories
- 1. As a graduate would like easy access to course enquiry forms as quciky
+ 1. Easily navigatible and responsive website design.
+    As a graduate, I would like easy access to access to course information and course enquiry forms.
 
+    ### Acceptance Criteria:
+    - Website,accessible on a variety of screen sizes.
+    - Intutive site layout, all information required accessible in 3 or less clicks.
+
+    ### Tasks
+    - Utilise Bootstrap to create easily navigatable website using responsive design principles and best practice.
+      
+ 2. Highly Quality presention of information on LifeSciSkills Academy courses (Must Have)
+ 3. Informations on Events and Webinars (Must Have)
+    As current employee
+ 4. Story for Career Guidance Form
+ 5. Testimonials (should Have_
+ 6. B2B Contact Form (Must Have)
+ 7. Sign up for Journal (could Have
 # Website Layout Planning
 
 ## Palette: 
@@ -85,6 +100,7 @@
 - CRM Sync
 - Multiple lanaguage support for expansion to International Students
 - LMS Integration
+
 
 
 
