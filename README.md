@@ -106,8 +106,9 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 -	Form validation
 -	Responsive form layout with Bootstrap grid
 
- 7. Sign up for Journal (could Have)
-     	As subscriber, I want journal signup so I get industry updates.
+
+
+
 
 # Website Layout Planning
 
@@ -165,6 +166,7 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 -Address with map iframe modal
 -Contact Us - Career Advice - modal form
 -Social media links
+
 
 
 
