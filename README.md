@@ -164,6 +164,9 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 -Contact Us - Career Advice - modal form
 -Social media links
 
+# Code
+- Code for responsive grid from Bootstrap documents, implementation inspired by grid layout video from Boardwalk games project, modified to fit project.
+
 Resources:
 
 Colour palette selected from Color Hunt  https://colorhunt.co/palette/1b3c53456882d2c1b6f9f3ef
