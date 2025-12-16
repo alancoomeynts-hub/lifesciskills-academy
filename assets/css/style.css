@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+
+:root {
+    --primary: #1B3C53;
+    --secondary: #456882;
+    --background: #D2C1B6;
+    --hover: #F9F3EF; 
+    --text-dark: #1B3C53;
+  
+
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary: 'Playfair', serif;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color:var(--background);
+    color: var(--text-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-secondary);
+
+}
