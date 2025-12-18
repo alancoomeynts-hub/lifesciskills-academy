@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
-
+ @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 :root {
     --primary: #1B3C53;
     --secondary: #456882;
@@ -9,7 +8,7 @@
 
 
     --font-primary: 'Inter', sans-serif;
-    --font-secondary: 'Playfair', serif;
+    --font-secondary: 'DM Serif Display', serif;
 }
 
 body {
@@ -37,7 +36,7 @@ h6 {
 
 #navbar .nav-link {
     font-family: var(--font-primary);
-    color: white;
+    color: var(--tertiary);
     font-weight: 500;
 }
 #navbar .nav-link:hover{
@@ -47,7 +46,7 @@ h6 {
 #navbar .offcanvas-header {
     background-color: var(--primary);
     font-family: var(--font-secondary);
-    color:white;
+    color: var(--tertiary);
     font: var(--font-secondary);
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -74,6 +73,7 @@ h6 {
     color: var(--primary);
     border: 2px solid var(--secondary);
     transition: 0.3s;
+    transform: translateY(-2px);
 
     
 }
@@ -87,9 +87,13 @@ h6 {
     padding-top: 5.52rem;
 }
 /*Footer*/
-footer{
+#footer{
     background-color: var(--primary);
+    color: var(--tertiary);
+    padding-bottom: 3rem;
+
 }
+
 
 /* grid visualisation CSS for testing
 
