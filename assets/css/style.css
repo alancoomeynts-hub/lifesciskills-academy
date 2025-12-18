@@ -60,7 +60,7 @@ h6 {
     background-color: var(--primary);
 
 }
-
+/*buttons*/
 .custom-btn {
     background-color: var(--tertiary);
     color: var(--primary);
@@ -84,6 +84,23 @@ h6 {
     display: none;
 }
 
+.sticky-cta{
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+
+    width: 100px;
+    height: 50px;
+    background-color: var(--secondary);
+    color: var(--tertiary);
+    border: 3px solid var(--secondary);
+   
+    font-weight: 600; 
+    text-decoration: none;
+   
+   
+}
 /*main*/
 .content-padding{
     padding-top: 5.52rem;
@@ -122,10 +139,13 @@ h6 {
 }  */
 
 /* media queries*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
 
     #enquire-now-btn {
         display: block;
     }
 
+    .sticky-cta{
+        display: none;
+    }
 }
