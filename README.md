@@ -148,11 +148,13 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 -Address with map iframe modal
 -Contact Us - Career Advice - modal form
 -Social media links
-
+# Bugs
+ - Enquire now button felt out of place in the drawer on nav screen. To solve I made the button display none by default and used a media button to make it visible again at 992px breakpoint.
+ - Expected issue adding sticky CTA button for mobile screen. Hoping following source can help out: https://stackoverflow.com/questions/39617803/sticky-bottom-button-only-on-mobile
 # Code
 - Code for responsive grid from Bootstrap documents, implementation inspired by grid layout video from Boardwalk games project, modified to fit project.
 - Code for navbar from bootstrap documentation, customised for website.
-- Class to prevent navbar blocking main content inspired by boardwalk games project. padding value adjust in dev tools to fit project.
+- Class to prevent navbar blocking main content inspired by boardwalk games project. Padding value adjust in dev tools to fit project.
 
 Resources:
 
