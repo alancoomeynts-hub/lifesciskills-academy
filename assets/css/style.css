@@ -4,6 +4,7 @@
     --secondary: #456882;
     --background: #D2C1B6;
     --tertiary: #F9F3EF;
+    --highlight: #E8B923;
   
 
 
@@ -64,18 +65,19 @@ h6 {
     background-color: var(--tertiary);
     color: var(--primary);
     border: 2px solid var(--secondary);
+    font-weight: 600; 
 
 }
 
 
 .custom-btn:hover{
-    background-color: var(--secondary);
+    background-color: var(--highlight);
     color: var(--primary);
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--highlight);
     transition: 0.3s;
     transform: translateY(-2px);
-
-    
+    font-weight: bolder;
+   
 }
 
 #enquire-now-btn {
@@ -89,11 +91,20 @@ h6 {
 /*Footer*/
 #footer{
     background-color: var(--primary);
-    color: var(--tertiary);
+    color: var(--background);
     padding-bottom: 3rem;
 
 }
 
+
+#footer i{
+    color: var(--highlight);
+}
+
+#footer .social-links{
+    
+    font-size:2rem;
+}
 
 /* grid visualisation CSS for testing
 
