@@ -1,167 +1,151 @@
- @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
 
- :root {
-     --primary: #1B3C53;
-     --secondary: #456882;
-     --background: #D2C1B6;
-     --tertiary: #F9F3EF;
-     --highlight: #E8B923;
+:root {
+  --primary: #1b3c53;
+  --secondary: #456882;
+  --background: #d2c1b6;
+  --tertiary: #f9f3ef;
+  --highlight: #e8b923;
 
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "DM Serif Display", serif;
+}
 
+body {
+  font-family: var(--font-primary);
+  background-color: var(--background);
+  color: var(--primary);
+}
 
-     --font-primary: 'Inter', sans-serif;
-     --font-secondary: 'DM Serif Display', serif;
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
+}
 
- body {
-     font-family: var(--font-primary);
-     background-color: var(--background);
-     color: var(--primary);
- }
+/*navbar*/
 
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-     font-family: var(--font-secondary);
+#navbar {
+  background-color: var(--primary);
+}
 
- }
+#navbar .nav-link {
+  font-family: var(--font-primary);
+  color: var(--tertiary);
+  font-weight: 500;
+}
 
- /*navbar*/
+#navbar .nav-link:hover {
+  color: var(--secondary);
+}
 
- #navbar {
-     background-color: var(--primary);
+#navbar .offcanvas-header {
+  background-color: var(--primary);
+  font-family: var(--font-secondary);
+  color: var(--tertiary);
+  font: var(--font-secondary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
 
- }
+#navbar .offcanvas-title {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  color: var(--highlight);
+}
 
- #navbar .nav-link {
-     font-family: var(--font-primary);
-     color: var(--tertiary);
-     font-weight: 500;
- }
+#navbar .offcanvas-body {
+  background-color: var(--primary);
+}
 
- #navbar .nav-link:hover {
-     color: var(--secondary);
- }
+#navbar img {
+  height: 48px;
+}
 
- #navbar .offcanvas-header {
-     background-color: var(--primary);
-     font-family: var(--font-secondary);
-     color: var(--tertiary);
-     font: var(--font-secondary);
-     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
- }
+/*buttons*/
+.custom-btn {
+  font-family: var(--font-secondary);
+  background-color: var(--highlight);
+  color: var(--primary);
+  border: 2px solid var(--highlight);
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+}
 
- #navbar .offcanvas-title {
-     font-size: 1.1rem;
-     text-transform: uppercase;
-     font-family: var(--font-secondary);
-     font-weight: 500;
-     letter-spacing: 0.05rem;
-     color: var(--highlight);
- }
+.custom-btn:hover {
+  background-color: var(--tertiary);
+  color: var(--primary);
+  border: 2px solid var(--tertiary);
+  transition: 0.3s;
+  transform: translateY(-2px);
+  font-weight: bolder;
+}
 
- #navbar .offcanvas-body {
-     background-color: var(--primary);
+#enquire-now-btn {
+  display: none;
+}
 
- }
+.sticky-cta {
+  display: inline;
+  position: fixed;
+  bottom: 54px;
+  right: 42px;
+  z-index: 1000;
 
- #navbar img {
-     height: 48px;
- }
+  width: 140px;
+  height: 60px;
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  background-color: var(--highlight);
+  color: var(--primary);
+  border: 3px solid var(--primary);
+  border-radius: 25px;
+  padding-top: 12px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  text-decoration: none;
+}
 
- /*buttons*/
- .custom-btn {
-     font-family: var(--font-secondary);
-     background-color: var(--highlight);
-     color: var(--primary);
-     border: 2px solid var(--highlight);
-     font-weight: 500;
-     letter-spacing: 0.05rem;
-     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+/*main*/
+.content-padding {
+  padding-top: 4.5rem;
+}
 
- }
+/*Footer*/
+#footer {
+  background-color: var(--primary);
+  color: var(--tertiary);
+  font-family: var(--font-primary);
+  padding-bottom: 1rem;
+}
 
+.footer-headings {
+  color: var(--background);
+}
 
- .custom-btn:hover {
-     background-color: var(--tertiary);
-     color: var(--primary);
-     border: 2px solid var(--tertiary);
-     transition: 0.3s;
-     transform: translateY(-2px);
-     font-weight: bolder;
+#footer i {
+  color: var(--highlight);
+  margin-right: 8px;
+}
 
- }
+.anchor {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  color: var(--tertiary);
+}
 
- #enquire-now-btn {
-     display: none;
- }
+#footer .social-links {
+  font-size: 2rem;
+}
 
- .sticky-cta {
-     display: inline;
-     position: fixed;
-     bottom: 54px;
-     right: 42px;
-
-     width: 140px;
-     height: 60px;
-     font-family: var(--font-secondary);
-     font-size: 1.2rem;
-     background-color: var(--highlight);
-     color: var(--primary);
-     border: 3px solid var(--primary);
-     border-radius: 25px;
-     padding-top: 12px;
-     text-align: center;
-     font-weight: 600;
-     letter-spacing: 0.05rem;
-     text-decoration: none;
-     z-index: 1000;
-
-
- }
-
-
-
- /*main*/
- .content-padding {
-     padding-top: 4.5rem;
- }
-
- /*Footer*/
- #footer {
-     background-color: var(--primary);
-     color: var(--tertiary);
-     font-family: var(--font-primary);
-     padding-bottom: 1rem;
-
-
- }
-
- .footer-headings {
-     color: var(--background);
-
- }
-
- #footer i {
-     color: var(--highlight);
-     margin-right: 8px;
- }
-
- .anchor {
-     text-decoration: none;
-     font-family: var(--font-primary);
-     color: var(--tertiary);
- }
-
- #footer .social-links {
-
-     font-size: 2rem;
- }
-
- /* grid visualisation CSS for testing
+/* grid visualisation CSS for testing
 
 .container,
 .row {
@@ -176,14 +160,13 @@
     background-color: lightgray;
 }  */
 
- /* media queries*/
- @media screen and (min-width: 768px) {
+/* media queries*/
+@media screen and (min-width: 768px) {
+  #enquire-now-btn {
+    display: block;
+  }
 
-     #enquire-now-btn {
-         display: block;
-     }
-
-     .sticky-cta {
-         display: none;
-     }
- }
+  .sticky-cta {
+    display: none;
+  }
+}
