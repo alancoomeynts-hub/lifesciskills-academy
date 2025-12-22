@@ -17,7 +17,11 @@ body {
   color: var(--primary);
 }
 
-h1,
+h1{
+  color: var(--primary);
+  font-family: var(--font-secondary);
+}
+
 h2,
 h3,
 h4,
@@ -142,9 +146,42 @@ h6 {
   text-decoration: none;
 }
 /*header*/
-.carousel-item img{
+.carousel-item{
   width: 100%;
-  height: 725px;
+  height: 60vh;
+  
+  
+}
+
+.hero-img{
+  
+  height: 100%;
+  width: 100% ;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px); 
+  color: var(--primary);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+  
+  width: 400px;
+  height: fit-content;
+  text-align: center;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.carousel-caption p{
+  color:var(--tertiary);
+  text-shadow: 3px 3px 12px rgba(0,0,0,1);
 }
 
 /*main*/
