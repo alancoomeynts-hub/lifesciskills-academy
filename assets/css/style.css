@@ -168,7 +168,8 @@ h6 {
   min-height: 54px;
 }
 
-#courses.card-img-top{
+.card .card-img-top{
+  border-radius: 1rem;
 
 }
 
