@@ -147,30 +147,37 @@ h6 {
 }
 /*header*/
 .carousel-item{
+  /*set dimensions of carousel item hero image*/
   width: 100%;
-  height: 60vh;
+  height: 75vh;
   
   
 }
 
 .hero-img{
-  
+  /* Ensure hero image fill the carousel item container*/
   height: 100%;
   width: 100% ;
   object-fit: cover;
 }
 
+/* creates glass box and background for hero-image carousel captions.*/
 .carousel-caption {
+
+  /* Styles for glassmorphic background*/
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(8px); 
   color: var(--primary);
+  font-weight: 700;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   border-radius: 1.5rem;
   
-  width: 400px;
+  /* set dimensions of caption box*/
+  max-width: 600px;
   height: fit-content;
   text-align: center;
 
+  /*centre the caption box*/
   position: absolute;
   right: 0;
   left: 0;
@@ -182,6 +189,30 @@ h6 {
 .carousel-caption p{
   color:var(--tertiary);
   text-shadow: 3px 3px 12px rgba(0,0,0,1);
+}
+
+#hero-image-logo{
+ 
+  max-width: 800px;
+  height: fit-content;
+   position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+}
+
+/* style to emphasize the availability of funding places on courses*/
+.text-gold{
+  border: 1px var(--highlight);
+  background-color: var(--highlight);
+  color: var(--primary);
+  font-weight: bold;
+  padding: 0 2px;
+  text-shadow: none !important ; /*remove text shadow for text-gold class*/
+  
 }
 
 /*main*/
@@ -242,20 +273,6 @@ h6 {
   font-size: 2rem;
 }
 
-/* grid visualisation CSS for testing
-
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12,
-.col-8,
-.col-6,
-.col-xl {
-    border: 2px solid white;
-    background-color: lightgray;
-}  */
 
 /* media queries*/
 @media screen and (min-width: 768px) {
@@ -268,9 +285,15 @@ h6 {
   }
 }
 
-/* @media screen and (min-width: 1200px) {
+@media screen and (max-width: 768px){
 
-  #courses-home .card-body{
-    min-height: 79px;
+  .carousel-caption{
+
+    max-width: 90% ;
+
+    }
+
+  #hero-image-logo{
+    max-width: 90%;
   }
-} */
+}
