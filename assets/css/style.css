@@ -67,12 +67,13 @@ h6 {
 #navbar img {
   height: 48px;
 }
-.navbar-nav .nav-link.active{
+
+.navbar-nav .nav-link.active {
   text-decoration: underline;
-  text-decoration-color: var(--highlight) ;
+  text-decoration-color: var(--highlight);
   text-decoration-thickness: 3px;
-  
-  
+
+
 }
 
 /*buttons*/
@@ -84,18 +85,19 @@ h6 {
   font-weight: 500;
   letter-spacing: 0.05rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+  transition: 0.3s;
 }
 
 .custom-btn:hover {
   background-color: var(--highlight);
   color: var(--secondary);
   border: 2px solid var(--highlight);
-  transition: 0.3s;
+
   transform: translateY(-2px);
   font-weight: bolder;
 }
 
-.custom-btn-main{
+.custom-btn-main {
   font-family: var(--font-secondary);
   background-color: var(--secondary);
   color: var(--highlight);
@@ -103,13 +105,14 @@ h6 {
   font-weight: 500;
   letter-spacing: 0.05rem;
 
+  transition: 0.3s;
 }
 
 .custom-btn-main:hover {
   background-color: var(--tertiary);
   color: var(--secondary);
   border: 2px solid var(--secondary);
-  transition: 0.3s;
+
 
 }
 
@@ -141,22 +144,33 @@ h6 {
 
 /*main*/
 .content-padding {
-  padding-top: 4.5rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
 }
 
-#courses-home .card{
+#courses-home{
+  background-color: var(--tertiary);
+  border: 1px solid rgba(232, 185, 35, 0.25);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+}
+
+#courses-home .card {
   margin-bottom: 2rem;
   font-family: var(--font-secondary);
-  color:var(--secondary);
+  color: var(--secondary);
   border: 0;
   
+}
 
+#courses-home .card-body {
+  background-color: var(--tertiary);
+  min-height: 54px;
+}
+
+#courses.card-img-top{
 
 }
-  #courses-home .card-body{
-    background-color: var(--tertiary);
-    min-height: 54px;
-  }
 
 /*Footer*/
 #footer {
