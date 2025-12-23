@@ -41,6 +41,7 @@
 - Had some trouble centring images in the hero carousel. Tried to use background property initially before realising this does not work on img elements. Options were to remove img element and use background on carousel-item or  use object-fit: center on img elementsas suggested by W3C: https://www.w3schools.com/css/css3_object-fit.asp
 - Issue with carousel caption width at lg breakpoint. width was set to 600px which introduced.
 - Initally the carousel caption backgrounds were overflowing when container becomes too small for contents. Solution media query to to set max-height for small screens and flex to captions to dynamically adjust height and centre the contents. Overflow was also issue when height is restricted, problem for phones in landscape mode (height <~600px>). Solution to add landscape orientation media query to adjust caption background height. Solution source: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+- I had difficult overriding bootstrap tables and nav-pills classes. Using devtools saw bootstrap table class has higher specificity variables. Used custom CSS to target these and customise table text color, background and cell borders, and the text of inactive nav-pills
 
 # Code
 

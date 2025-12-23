@@ -113,9 +113,11 @@ h6 {
 }
 
 .custom-btn-main:hover {
-  background-color: var(--tertiary);
-  color: var(--secondary);
+  background-color: var(--primary);
+  color: var(--highlight);
   border: 2px solid var(--secondary);
+  transform: translateY(-2px);
+  font-weight: bolder;
 
 
 }
@@ -228,7 +230,10 @@ h6 {
   padding-top: 1.5rem;
 }
 
-#courses-home {
+#courses-home,
+#events-home,
+#course-tabs,
+#enquiry-form {
   background-color: var(--tertiary);
   border: 1px solid rgba(232, 185, 35, 0.25);
   border-radius: 1.5rem;
@@ -253,6 +258,36 @@ h6 {
 
 }
 
+#events-home .table{
+  --bs-table-bg: var(--tertiary);
+  --bs-table-color: var(--primary); 
+  --bs-table-border-color: rgba(232, 185, 35, 0.25)
+}
+
+/* Courses Page*/
+
+#course-tabs .nav-pills{
+  background-color: var(--primary);
+  --bs-nav-link-color: var(--tertiary)!important;
+  border-radius: 1rem;
+  padding: 0.25rem;
+  
+
+
+}
+
+#course-tabs .nav-pills:hover{
+  --bs-nav-link-color: var(--highlight)!important;
+
+}
+
+#course-tabs .nav-pills .nav-link.active {
+  background-color: var(--highlight);
+  color: var(--primary);
+  border-radius: 0.75rem;
+}
+
+
 /*Footer*/
 #footer {
   background-color: var(--primary);
@@ -262,7 +297,7 @@ h6 {
 }
 
 .footer-headings {
-  color: var(--background);
+  color: var(--highlight);
 }
 
 #footer i {
