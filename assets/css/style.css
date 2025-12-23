@@ -173,12 +173,15 @@ h6 {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   border-radius: 1.5rem;
 
-  /* set dimensions of caption box*/
-  max-width: 600px;
-  height: fit-content;
-  text-align: center;
+  /* set dimensions of caption box. Flex column to center content*/
+  max-width: 800px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  /*centre the caption box*/
+  /*centre the caption box against the background hero image*/
   position: absolute;
   right: 0;
   left: 0;
@@ -187,11 +190,13 @@ h6 {
   margin: auto;
 }
 
+/*change text of caption p elements to ivory and add text shadow for readability*/
 .carousel-caption p {
   color: var(--tertiary);
   text-shadow: 3px 3px 12px rgba(0, 0, 0, 1);
 }
 
+/*set dimensions of LifeSciScience Academy logo on first carousle item image and center it*/
 #hero-image-logo {
 
   max-width: 800px;
@@ -291,7 +296,7 @@ h6 {
 
 }
 /*below 768px, these styles apply*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
   .carousel-caption {
 
@@ -304,12 +309,12 @@ h6 {
   }
 }
 
-@media screen and (min-width: 578px) {
+@media screen and (max-width: 576px) {
 
   .carousel-caption {
 
 
-    max-height: 440px;
+    height: 80%;
 
 
   }
@@ -318,4 +323,18 @@ h6 {
 
     font-weight: 400;
   }
+
+  
+}
+
+@media (max-width:992px) and (orientation: landscape) {
+
+    .carousel-caption {
+
+
+    height: 90%;
+
+
+  }
+
 }

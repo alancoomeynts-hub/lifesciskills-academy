@@ -40,7 +40,7 @@
  - Expected issue adding sticky CTA button for mobile screen. Hoping following source can help out: https://stackoverflow.com/questions/39617803/sticky-bottom-button-only-on-mobile
 - Had some trouble centring images in the hero carousel. Tried to use background property initially before realising this does not work on img elements. Options were to remove img element and use background on carousel-item or  use object-fit: center on img elementsas suggested by W3C: https://www.w3schools.com/css/css3_object-fit.asp
 - Issue with carousel caption width at lg breakpoint. width was set to 600px which introduced.
-- Carousel captions overflowing when container becomes too small for contents. Solution media query to to set max-height for small screens.
+- Carousel captions overflowing when container becomes too small for contents. Solution media query to to set max-height for small screens and flex to captions to dynamically adjust height and centre the contents. OVerflow was also issue when height is restricted, problem for phones in landscape mode (height <~600px>). Solution to add landscape orientation media query to adjust caption background height. Source: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 
 # Code
 
