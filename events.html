@@ -30,14 +30,15 @@
     <div class="container-fluid">
 
       <a class="navbar-brand" href="index.html">
-        <img src="assets/images/lifesciskills-academy-navbar.webp" alt="LifeSciSkill Academy Logo">
+        <img src="assets/images/navbar-logo.webp" alt="LifeSciSkill Academy Logo">
 
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
           <p class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</p>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
@@ -73,37 +74,140 @@
       </div>
     </div>
   </nav>
-  /*main*/
-  <section>
-    <p>Open Day Blurb (Detailed)
-      "Join us at our LifeSciSkills Academy Open Day across Ireland's key hubs: Limerick, Galway, Cork, and Dublin.
-      Experience hands-on pharma manufacturing demos, tour our state-of-the-art Industry 4.0 training labs, and meet the
-      expert instructors shaping tomorrow's life sciences professionals.
+  <header class="content-padding text-center">
+    <h1 class="display-5 mt-2 ">Upcoming Open Days & Webinars</h1>
+  </header>
+  <!--main-->
+  <main>
+    <section id="event-details" class="container main-content px-5 py-3 my-4">
 
-      What you'll discover:
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 text-center">
+          <p class="lead">Discover LifeSciSkills Academy campuses across Ireland. Meet instructors, tour facilities, and
+            explore Industry 4.0 career pathways in pharma manufacturing.</p>
+        </div>
+      </div>
 
-      Cutting-edge cleanroom facilities with live production simulations
+      <div class="accordion" id="event-accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="false" aria-controls="collapseOne">
+              Open Day Nationwide - 10th January 2026
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#event-accordion">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-12">
+                  <i class="fa-solid fa-calendar"></i> 10th January 2026<br>
+                  <i class="fa-solid fa-location-dot"></i> LifeSciSkills Academy Campuses Nationwide (Limerick, Galway,
+                  Cork & Dublin)<br>
+                  <i class="fa-solid fa-clock"></i> 10:00 AM - 4:00 PM<br><br>
+                  <p>Join us for an immersive Open Day at LifeSciSkills Academy! Explore our state-of-the-art campuses
+                    in Limerick, Galway, Cork, and Dublin. Meet our expert instructors, tour cutting-edge facilities,
+                    and discover how our industry-focused training can launch your career in pharmaceutical
+                    manufacturing. Whether you're a prospective student or a curious professional, this is your chance
+                    to experience the LifeSciSkills difference firsthand. Don't miss out on this opportunity to take the
+                    first step towards your future in life sciences!</p>
+                </div>
+              </div>
 
-      Medical device assembly stations and digital transformation workflows
 
-      Career pathways in pharmaceutical business development
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Webinar - Career Opportunities for Students: How to Get a Job in the Pharma & MedTech Industry - 16th December 2025
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#event-accordion">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-12">
+                  <i class="fa-solid fa-calendar"></i> 16th December 2025<br>
+                  <i class="fa-solid fa-location-dot"></i> Online<br>
+                  <i class="fa-solid fa-clock"></i> 1PM - 2PM<br>
+                  <i class="fa-solid fa-microphone"></i> Dr Seamus O'Connor, directorwith Guest Speaker: Jane Doe, HR Manager at PharmaCorp
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Webinar - Moving Forward with LifeSciSkills Academy: How to Choose the Right Programme - 12th December 2025
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#event-accordion">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-12">
+                  <i class="fa-solid fa-calendar"></i> 12th December 2025<br>
+                  <i class="fa-solid fa-location-dot"></i> Online<br>
+                  <i class="fa-solid fa-clock"></i> 1PM - 2PM<br>
+                  <i class="fa-solid fa-microphone"></i> Dr Seamus O'Connor, Director of LifeSciSkills Academy
 
-      Flexible course schedules designed for working professionals
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
 
-      Multiple locations, same premium training:
 
-      Limerick: State-of-the-art West Ireland campus
+    <section id="registration-form" class="container main-content px-5 py-3 mt-3 mb-4">
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-md-8">
+          <h2>Enquiry Form</h2>
+          <form action="" method="GET">
+            <div class="row">
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input class="form-control" id="name" name="name" type="text" required>
+              </div>
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" id="email" name="email" type="email" required>
+              </div>
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="phone" class="form-label">Phone number</label>
+                <input class="form-control" id="phone" name="phone" type="number" required>
+              </div>
+              <div class="col-12 col-lg-6 mb-3">
+                <label for="event-type" class="form-label">Which event would you like to register for</label>
+                <select id="event-type" class="form-select" name="event-type" required>
+                  <option value="" selected>Select</option>
+                  <option value="webinar-12dec25">Webinar - Moving Forward with LifeSciSkills Academy: How to Choose the
+                    Right Programme</option>
+                  <option value="webinar-16dec25">Webinar - Career Opportunities for Students: How to Get a Job
+                    in the Pharma & MedTech Industry</option>
+                  <option value=openday-10Jan26">Open Day January 2026</option>
+                </select>
+              </div>
 
-      Galway: Atlantic innovation hub
+              <div class="col-12 mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+              </div>
 
-      Cork: Munster pharma manufacturing centre
+              <div class="col-12 mb-4">
+                <button type="submit" class="btn custom-btn-main">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
 
-      Dublin: National headquarters with corporate partnerships
-
-      No obligation—just real insights into Ireland's fastest-growing sector. Register now to secure your spot and start
-      your life sciences journey."</p>
-  </section>
-
+    </section>
+  </main>
   <!--Footer Start-->
   <footer id="footer" class="mt-auto">
     <div class="container content-padding">

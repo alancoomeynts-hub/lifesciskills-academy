@@ -17,11 +17,13 @@ body {
   color: var(--primary);
 }
 
-h1 {
-  color: var(--primary);
+/*change hero heading color for readability against glassomorphic background*/
+.hero-heading{
   font-family: var(--font-secondary);
+  color: var(--primary);
 }
 
+h1,
 h2,
 h3,
 h4,
@@ -55,6 +57,7 @@ h6 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+
 #navbar .offcanvas-title {
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -81,6 +84,7 @@ h6 {
 }
 
 /*buttons*/
+/*buttons styles for buttons on primary navy background*/
 .custom-btn {
   font-family: var(--font-secondary);
   background-color: var(--highlight);
@@ -101,6 +105,7 @@ h6 {
   font-weight: bolder;
 }
 
+/*styles for button in main of page*/
 .custom-btn-main {
   font-family: var(--font-secondary);
   background-color: var(--secondary);
@@ -112,6 +117,7 @@ h6 {
   transition: 0.3s;
 }
 
+
 .custom-btn-main:hover {
   background-color: var(--primary);
   color: var(--highlight);
@@ -122,17 +128,19 @@ h6 {
 
 }
 
+/*hide navbar enquire now button on mobile screens*/
 #enquire-now-btn {
   display: none;
 }
 
+/*style for sticky cta button mobile screen*/
 .sticky-cta {
+
   display: inline;
   position: fixed;
   bottom: 54px;
   right: 42px;
   z-index: 1000;
-
   width: 140px;
   height: 60px;
   font-family: var(--font-secondary);
@@ -219,8 +227,7 @@ h6 {
   color: var(--primary);
   font-weight: bold;
   padding: 0 2px;
-  text-shadow: none !important;
-  /*remove text shadow for text-gold class*/
+  text-shadow: none !important;  /*remove text shadow added by carousel captios class*/
 
 }
 
@@ -230,10 +237,7 @@ h6 {
   padding-top: 1.5rem;
 }
 
-#courses-home,
-#events-home,
-#course-tabs,
-#enquiry-form {
+.main-content {
   background-color: var(--tertiary);
   border: 1px solid rgba(232, 185, 35, 0.25);
   border-radius: 1.5rem;
@@ -277,17 +281,8 @@ h6 {
 }
 
 
-#course-tabs .nav-link{
- 
-  margin: 0.25rem;
-  height: 3rem;           /* Fixed height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
 
-}
-
+/*Style the active pill*/
 #course-tabs .nav-pills .nav-link.active {
   background-color: var(--highlight);
   color: var(--primary);
@@ -303,7 +298,31 @@ h6 {
 }
 
 
+/*events page*/
+/*customise accordion to match site color scheme by overriding bootstrap variables*/
+#event-accordion{
+  --bs-accordion-bg: var(--tertiary);           
+  --bs-accordion-btn-bg: var(--secondary);     
+  --bs-accordion-btn-color: var(--tertiary);    
+  --bs-accordion-color: var(--primary);         
+  --bs-accordion-border-color: var(--highlight)
+  b
+}
+/*styles for accordion item when expanded*/
+.accordion-item{
 
+  --bs-accordion-bg: var(--tertiary);
+  --bs-accordion-color: var(--primary);
+  --bs-body-font-family: var(--font-primary);
+}
+
+
+/* style for accordion button when expanded */
+.accordion-button:not(.collapsed) {
+  background-color: var(--highlight);
+  color: var(--primary);
+  font-weight: bold;
+}
 
 /*Footer*/
 #footer {

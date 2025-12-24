@@ -37,7 +37,7 @@
         aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
           <p class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</p>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
@@ -74,11 +74,12 @@
     </div>
   </nav>
   <header class="content-padding text-center">
-    <h1>Our Courses</h1>
+    <h1 class="display-5 mt-2">Our Courses</h1>
   </header>
   <!--Main-->
   <main>
-    <section id="course-tabs" class="container content-padding mb-4">
+    <section id="course-tabs" class="container main-content px-5 py-3 my-4">
+      <!-- Course Info Tabs-->
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="pills-DegPharma-tab" data-bs-toggle="pill"
@@ -107,14 +108,14 @@
             and Manufacturing Automation</button>
         </li>
       </ul>
-      <div class="tab-content" id="pills-tabContent">
+      <div class="tab-content px-5" id="pills-tabContent">
 
-        <div class="tab-pane fade show active" id="pills-DegPharma" role="tabpanel"
+        <div class="tab-pane fade show active mb-3" id="pills-DegPharma" role="tabpanel"
           aria-labelledby="pills-DegPharma-tab" tabindex="0">
 
           <div class="row">
             <div class="col-12 col-md-6">
-              <h3>Delivery Locations</h3>
+              <h2>Delivery Locations</h2>
               <ul>
                 <li><strong>Limerick, Galway, Cork, Dublin</strong> campuses</li>
                 <li>Blended: 60% in-person labs + 40% online theory</li>
@@ -123,7 +124,7 @@
             </div>
 
             <div class="col-12 col-md-6">
-              <h3>Entry Requirements</h3>
+              <h2>Entry Requirements</h2>
               <ul>
                 <li>Leaving Certificate or equivalent (min 5 passes)</li>
                 <li>Basic science (Chemistry/Biology advantage)</li>
@@ -135,7 +136,7 @@
 
           <div class="row mt-2">
             <div class="col-12 col-md-6">
-              <h3>Curriculum Overview</h3>
+              <h2>Curriculum Overview</h2>
               <ul>
                 <li>Pharma Manufacturing Fundamentals (GMP, Cleanroom)</li>
                 <li>Process Validation & Quality Systems (21 CFR Part 11)</li>
@@ -146,7 +147,7 @@
             </div>
 
             <div class="col-12 col-md-6">
-              <h3>Funding Details</h3>
+              <h2>Funding Details</h2>
 
               <ul>
                 <li>Course Price: €5500</li>
@@ -164,7 +165,7 @@
           tabindex="0">
           <div class="row">
             <div class="col-12 col-md-6">
-              <h3>Delivery Locations</h3>
+              <h2>Delivery Locations</h2>
               <ul>
                 <li><strong>Limerick, Galway, Cork, Dublin</strong> campuses</li>
                 <li>70% in-person advanced labs + 30% online research</li>
@@ -173,7 +174,7 @@
             </div>
 
             <div class="col-12 col-md-6">
-              <h3>Entry Requirements</h3>
+              <h2>Entry Requirements</h2>
               <ul>
                 <li>Level 7/8 degree (Science/Engineering/Pharma)</li>
                 <li>2+ years industry experience preferred</li>
@@ -184,7 +185,7 @@
 
           <div class="row mt-2">
             <div class="col-12 col-md-6">
-              <h3>Curriculum Overview</h3>
+              <h2>Curriculum Overview</h2>
               <ul>
                 <li>Advanced Process Analytical Technology (PAT)</li>
                 <li>Continuous Manufacturing & QbD Principles</li>
@@ -195,7 +196,7 @@
             </div>
 
             <div class=" col-12 col-md-6">
-              <h3>Funding Details</h3>
+              <h2>Funding Details</h2>
               <ul>
                 <li>Course Price: €9000</li>
                 <li><strong>Springboard Funding Fee: €900</strong></li>
@@ -209,7 +210,7 @@
 
           <div class="row">
             <div class="col-md-6">
-              <h3>Delivery Locations</h3>
+              <h2>Delivery Locations</h2>
               <ul>
                 <li><strong>Limerick, Galway, Cork, Dublin</strong> campuses</li>
                 <li>65% hands-on cleanroom + 35% online ISO training</li>
@@ -218,7 +219,7 @@
             </div>
 
             <div class="col-md-6">
-              <h3>Entry Requirements</h3>
+              <h2>Entry Requirements</h2>
               <ul>
                 <li>Leaving Certificate or equivalent</li>
                 <li>Science/Engineering background preferred</li>
@@ -230,7 +231,7 @@
 
           <div class="row mt-4">
             <div class="col-md-6">
-              <h3>Curriculum Overview</h3>
+              <h2>Curriculum Overview</h2>
               <ul>
                 <li>Medical Device Regulations (ISO 13485, MDR 2017/745)</li>
                 <li>Cleanroom Operations & Sterile Processing</li>
@@ -241,7 +242,7 @@
             </div>
 
             <div class="col-md-6">
-              <h3>Funding Details</h3>
+              <h2>Funding Details</h2>
               <ul>
                 <li>Course Price: €4500</li>
                 <li><strong>Springboard Funding Fee: €450</strong></li>
@@ -257,7 +258,7 @@
 
           <div class="row">
             <div class="col-md-6">
-              <h3>Delivery Locations</h3>
+              <h2>Delivery Locations</h2>
               <ul>
                 <li><strong>Limerick, Galway, Cork, Dublin</strong> campuses</li>
                 <li>50% classroom + 50% industry case studies</li>
@@ -266,7 +267,7 @@
             </div>
 
             <div class="col-md-6">
-              <h3>Entry Requirements</h3>
+              <h2>Entry Requirements</h2>
               <ul>
                 <li>Leaving Certificate (min H4 in 2 subjects)</li>
                 <li>Level 5/6 pharma qualification (fast-track)</li>
@@ -278,7 +279,7 @@
 
           <div class="row mt-4">
             <div class="col-md-6">
-              <h3>Curriculum Overview</h3>
+              <h2>Curriculum Overview</h2>
               <ul>
                 <li>Pharma Commercial Strategy & Market Access</li>
                 <li>Supply Chain & Logistics Management</li>
@@ -289,7 +290,7 @@
             </div>
 
             <div class="col-md-6">
-              <h3>Funding Details</h3>
+              <h2>Funding Details</h2>
               <ul>
                 <li>Course Price: €5000</li>
                 <li><strong>Springboard Funding Fee: €500</strong></li>
@@ -304,7 +305,7 @@
 
           <div class="row">
             <div class="col-md-6">
-              <h3>Delivery Locations</h3>
+              <h2>Delivery Locations</h2>
               <ul>
                 <li><strong>Limerick, Galway, Cork, Dublin</strong> campuses</li>
                 <li>75% hands-on automation labs + 25% online</li>
@@ -313,7 +314,7 @@
             </div>
 
             <div class="col-md-6">
-              <h3>Entry Requirements</h3>
+              <h2>Entry Requirements</h2>
               <ul>
                 <li>Leaving Certificate (Maths/Science H4+)</li>
                 <li>Level 6 Pharma/Engineering Certificate</li>
@@ -325,7 +326,7 @@
 
           <div class="row mt-4">
             <div class="col-md-6">
-              <h3>Curriculum Overview</h3>
+              <h2>Curriculum Overview</h2>
               <ul>
                 <li>PLC Programming & HMI/SCADA Systems</li>
                 <li>Industrial IoT & Digital Twins</li>
@@ -336,7 +337,7 @@
             </div>
 
             <div class="col-md-6">
-              <h3>Funding Details</h3>
+              <h2>Funding Details</h2>
               <ul>
                 <li>Course Price: €6000</li>
                 <li><strong>Springboard Funding Fee: €600</strong></li>
@@ -349,8 +350,9 @@
 
 
       </div>
-
-
+      </section>
+      <!--Enquiry Form Section-->
+      <section class="main-content container  px-5 py-3 mt-3 mb-4" id="enquiry-form">
       <div class="row justify-content-center">
         <div class="col-12 col-md-8">
           <h2>Enquiry Form</h2>
@@ -369,7 +371,7 @@
                 <input class="form-control" id="phone" name="phone" type="number" required>
               </div>
               <div class="col-12 col-lg-6 mb-3">
-                <label for="course-type" class="form-label">Event type</label>
+                <label for="course-type" class="form-label">Course Interested In</label>
                 <select id="course-type" class="form-select" name="course-type" required>
                   <option value="" selected>Select</option>
                   <option value="degree-pharma">Degree in Pharmaceutical Manufacturing Operations</option>
@@ -394,7 +396,7 @@
                 </select>
               </div>
               <div class="col-12 col-lg-6 mb-3">
-                <label for="formFile" class="form-label">Choose file</label>
+                <label for="formFile" class="form-label">Upload</label>
                 <input class="form-control" type="file" id="formFile">
               </div>
 
@@ -403,7 +405,7 @@
                 <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
               </div>
             </div>
-            <div class="col-12 mb-4">
+            <div class="col-12 justify-content-center">
               <button type="submit" class="btn custom-btn-main">Submit</button>
             </div>
           </form>

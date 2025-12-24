@@ -60,10 +60,9 @@
 - Events section and form created using bootstrap. Customised to project.
 - Course information section implemented using nav and tabs from bootstrap and customised to project theme. Text content for fake course generated using Perplexity AI and editted to fit project.
 - Course Enquiry form created using Bootstrap form control. Customised to fit project theme.
-
--Centering of bootstrap capsule as suggested by https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/
+-Centering of bootstrap carousel captions as suggested by https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/
 - Glassy carousel captions as described by https://blog.openreplay.com/create-glassmorphic-ui-css/
-- 
+- Accordion on events page from Bootstrap. Customised to fit project theme, targeted Bootstrap variables to change component styles.
 
 # Credits
 - Business model inspired by Innopharma Education.
