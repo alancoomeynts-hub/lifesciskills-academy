@@ -222,7 +222,7 @@ h6 {
 
 /* style to emphasize the availability of funding places on courses*/
 .text-gold {
-  border: 1px var(--highlight);
+  border: 1px solid var(--highlight);
   background-color: var(--highlight);
   color: var(--primary);
   font-weight: bold;
