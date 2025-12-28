@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 :root {
   --primary: #1b3c53;
   --secondary: #456882;
   --background: #d2c1b6;
   --tertiary: #f9f3ef;
-  --highlight: #e8b923; 
+  --highlight: #e8b923;
 
   --font-primary: "Inter", sans-serif;
   --font-secondary: "DM Serif Display", serif;
@@ -17,7 +17,7 @@ body {
 }
 
 /*change hero heading color for readability against glassomorphic background*/
-.hero-heading{
+.hero-heading {
   font-family: var(--font-secondary);
   color: var(--primary);
 }
@@ -56,7 +56,6 @@ h6 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-
 #navbar .offcanvas-title {
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -78,11 +77,7 @@ h6 {
   text-decoration: underline;
   text-decoration-color: var(--highlight);
   text-decoration-thickness: 3px;
-
-
 }
-
-
 
 /*buttons*/
 /*buttons styles for buttons on primary navy background*/
@@ -118,15 +113,12 @@ h6 {
   transition: 0.3s;
 }
 
-
 .custom-btn-main:hover {
   background-color: var(--primary);
   color: var(--highlight);
   border: 2px solid var(--secondary);
   transform: translateY(-2px);
   font-weight: bolder;
-
-
 }
 
 /*hide navbar enquire now button on mobile screens*/
@@ -136,7 +128,6 @@ h6 {
 
 /*style for sticky cta button mobile screen*/
 .sticky-cta {
-
   display: inline;
   position: fixed;
   bottom: 54px;
@@ -162,8 +153,6 @@ h6 {
   /*set dimensions of carousel item hero image*/
   width: 100%;
   height: 75vh;
-
-
 }
 
 .hero-img {
@@ -175,7 +164,6 @@ h6 {
 
 /* creates glass box and background for hero-image carousel captions.*/
 .carousel-caption {
-
   /* Styles for glassmorphic background*/
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(8px);
@@ -209,7 +197,6 @@ h6 {
 
 /*set dimensions of LifeSciScience Academy logo on first carousle item image and center it*/
 #hero-image-logo {
-
   max-width: 800px;
   height: fit-content;
   position: absolute;
@@ -218,7 +205,6 @@ h6 {
   top: 0;
   bottom: 0;
   margin: auto;
-
 }
 
 /* style to emphasize the availability of funding places on courses*/
@@ -228,8 +214,7 @@ h6 {
   color: var(--primary);
   font-weight: bold;
   padding: 0 2px;
-  text-shadow: none !important;  /*remove text shadow added by carousel captios class*/
-
+  text-shadow: none !important; /*remove text shadow added by carousel captios class*/
 }
 
 /*main*/
@@ -251,7 +236,6 @@ h6 {
   font-family: var(--font-secondary);
   color: var(--secondary);
   border: 0;
-
 }
 /*style card body background to match site color scheme*/
 #courses-home .card-body {
@@ -261,37 +245,33 @@ h6 {
 /*style card images to have rounded corners*/
 .card .card-img-top {
   border-radius: 1rem;
-
 }
 /*style the events table on home page to match site color scheme by overriding bootstrap variables*/
-#events-home .table{
+#events-home .table {
   --bs-table-bg: var(--tertiary);
-  --bs-table-color: var(--primary); 
-  --bs-table-border-color: rgba(232, 185, 35, 0.25)
+  --bs-table-color: var(--primary);
+  --bs-table-border-color: rgba(232, 185, 35, 0.25);
 }
 #testimonials {
-  
   padding: 2rem;
+ 
   
 }
-#testimonials video{
+#testimonials video {
+  width: 100%;
+  height: auto;
   max-height: 400px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Courses Page*/
 
-#course-tabs .nav-pills{
+#course-tabs .nav-pills {
   background-color: var(--secondary);
-  --bs-nav-link-color: var(--tertiary)!important;
+  --bs-nav-link-color: var(--tertiary) !important;
   border-radius: 1rem;
   padding: 0.25rem;
-  
-
-
 }
-
-
 
 /*Style the active pill*/
 #course-tabs .nav-pills .nav-link.active {
@@ -302,31 +282,25 @@ h6 {
 }
 
 /* selector uses not psuedo class to change the text color of the not active tab pills*/
-#course-tabs .nav-link:not(.active):hover{
-
+#course-tabs .nav-link:not(.active):hover {
   color: var(--highlight);
-
 }
-
 
 /*events page*/
 /*customise accordion to match site color scheme by overriding bootstrap variables*/
-#event-accordion{
-  --bs-accordion-bg: var(--tertiary);           
-  --bs-accordion-btn-bg: var(--secondary);     
-  --bs-accordion-btn-color: var(--tertiary);    
-  --bs-accordion-color: var(--primary);         
-  --bs-accordion-border-color: var(--highlight)
-  b
+#event-accordion {
+  --bs-accordion-bg: var(--tertiary);
+  --bs-accordion-btn-bg: var(--secondary);
+  --bs-accordion-btn-color: var(--tertiary);
+  --bs-accordion-color: var(--primary);
+  --bs-accordion-border-color: var(--highlight) b;
 }
 /*styles for accordion item when expanded*/
-.accordion-item{
-
+.accordion-item {
   --bs-accordion-bg: var(--tertiary);
   --bs-accordion-color: var(--primary);
   --bs-body-font-family: var(--font-primary);
 }
-
 
 /* style for accordion button when expanded */
 .accordion-button:not(.collapsed) {
@@ -362,7 +336,6 @@ h6 {
   font-size: 2rem;
 }
 
-
 /* media queries*/
 
 /*Above 768px, these styles apply*/
@@ -374,16 +347,11 @@ h6 {
   .sticky-cta {
     display: none;
   }
-
-
 }
 /*below 768px, these styles apply*/
 @media screen and (max-width: 768px) {
-
   .carousel-caption {
-
     max-width: 90%;
-
   }
 
   #hero-image-logo {
@@ -392,31 +360,17 @@ h6 {
 }
 
 @media screen and (max-width: 576px) {
-
   .carousel-caption {
-
-
     height: 80%;
-
-
   }
 
   .custom-btn {
-
     font-weight: 400;
   }
-
-  
 }
 
-@media (max-width:992px) and (orientation: landscape) {
-
-    .carousel-caption {
-
-
+@media (max-width: 992px) and (orientation: landscape) {
+  .carousel-caption {
     height: 90%;
-
-
   }
-
 }
