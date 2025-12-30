@@ -32,22 +32,23 @@ h6 {
   color: var(--secondary);
 }
 
-/*navbar*/
+/*Navigation Bar styles*/
 
+/*style navbar background*/
 #navbar {
   background-color: var(--primary);
 }
-
+/*style navbar links*/
 #navbar .nav-link {
   font-family: var(--font-primary);
   color: var(--tertiary);
   font-weight: 500;
 }
-
+/*hover effect for navbar links*/
 #navbar .nav-link:hover {
   color: var(--highlight);
 }
-
+/*style navbar offcanvas drawer header*/
 #navbar .offcanvas-header {
   background-color: var(--primary);
   font-family: var(--font-secondary);
@@ -55,7 +56,7 @@ h6 {
   font: var(--font-secondary);
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
-
+/*style navbar offcanvas drawer title*/
 #navbar .offcanvas-title {
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -64,17 +65,17 @@ h6 {
   letter-spacing: 0.05rem;
   color: var(--highlight);
 }
-
+/*set background of navbar offcanvas drawer*/
 #navbar .offcanvas-body {
   background-color: var(--primary);
 }
-
+/*set dimensions of navbar logo*/
 .navbar-brand img {
   width: 198px;  
   height: 49px;  
   
 }
-
+/*style active navbar link with underline*/
 .navbar-nav .nav-link.active {
   text-decoration: underline;
   text-decoration-color: var(--highlight);
@@ -93,7 +94,7 @@ h6 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
   transition: 0.3s;
 }
-
+/*hover effect for buttons on primary navy background*/
 .custom-btn:hover {
   background-color: var(--highlight);
   color: var(--secondary);
@@ -115,6 +116,7 @@ h6 {
   transition: 0.3s;
 }
 
+/*hover effect for main page button*/
 .custom-btn-main:hover {
   background-color: var(--primary);
   color: var(--highlight);
@@ -220,6 +222,7 @@ h6 {
 }
 
 /*main*/
+/*add top margin and padding to main content sections*/
 .content-padding {
   margin-top: 3rem;
   padding-top: 1.5rem;
@@ -233,6 +236,8 @@ h6 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
 }
 /* Home Page*/
+/*Courses Section*/
+/*style course cards on home page to match site color scheme*/
 #courses-home .card {
   margin-bottom: 2rem;
   font-family: var(--font-secondary);
@@ -248,17 +253,23 @@ h6 {
 .card .card-img-top {
   border-radius: 1rem;
 }
+/*Events Section*/
 /*style the events table on home page to match site color scheme by overriding bootstrap variables*/
 #events-home .table {
   --bs-table-bg: var(--tertiary);
   --bs-table-color: var(--primary);
   --bs-table-border-color: rgba(232, 185, 35, 0.25);
 }
+
+/* Testimonials Section*/
+
+/*style testimonial video container*/
 #testimonials {
   padding: 2rem;
  
   
 }
+/*style testimonial video to be responsive*/
 #testimonials video {
   width: 100%;
   height: auto;
@@ -268,6 +279,7 @@ h6 {
 
 /* Courses Page*/
 
+/*style course tabs to match site color scheme by overriding bootstrap variables*/
 #course-tabs .nav-pills {
   background-color: var(--secondary);
   --bs-nav-link-color: var(--tertiary) !important;
@@ -284,11 +296,11 @@ h6 {
   border-radius: 0.75rem;
   font-weight: bold;
 }
-
-/* selector uses not psuedo class to change the text color of the not active tab pills*/
+/*style the hover effect for inactive pills*/
 #course-tabs .nav-link:not(.active):hover {
   color: var(--highlight);
 }
+
 
 /*events page*/
 /*customise accordion to match site color scheme by overriding bootstrap variables*/
@@ -313,7 +325,14 @@ h6 {
   font-weight: bold;
 }
 
+.accordion-button.collapse:hover {
+  background-color: var(--highlight);
+  color: var(--secondary);
+} 
+
 /*Footer*/
+
+/*style footer background and text*/
 #footer {
   background-color: var(--primary);
   color: var(--tertiary);
@@ -321,21 +340,22 @@ h6 {
   padding-bottom: 1rem;
 }
 
+/*style footer headings*/
 .footer-headings {
   color: var(--highlight);
 }
-
+/*style footer favicons*/
 #footer i {
   color: var(--highlight);
   margin-right: 8px;
 }
-
+/*style footer links*/
 .anchor {
   text-decoration: none;
   font-family: var(--font-primary);
   color: var(--tertiary);
 }
-
+/*style to make footer social media links bigger*/
 #footer .social-links {
   font-size: 2rem;
 }
