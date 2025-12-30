@@ -19,13 +19,12 @@
 
 ## User Personas
 - Science and engineering graduates looking to upskill for life manufacturing industry.
-- Industry workers without quallification looking to certify and advance their careers.
+- Industry workers without qualification looking to certify and advance their careers.
 - Non-industry workers looking to transition.
 - HR departments looking to create Bespoke training for their manufacturing company or fund private course intakes for employers.
 
 ## User Stories
-- As a graduate, I would like easy access to access to course information and course enquiry forms.
-- As an HR associate for manufacturing company, I want a contact form to arrange bespoke training or private intake.
+- As a graduate, I would like easy access to access to course information and course enquiry forms in order to upskill for the pharma industry.
 - As a potential student, I would like to see details of each course offering so I can compare and the enquiry.
 - As current employee, I would like to choose a course I feel would be the best pick to advance my career. I would like to sign up for a  webinar or an Open day to  assesswhat your courses can offer me.
 - As a career transitioner, I want a guidance form so I get advice without knowing exact course fit.
@@ -122,6 +121,36 @@ Additionally, a journal or newsletter signup section could have been included to
 # Bugs
 
 # Testing
+
+Website was thoroughly tested using user personas and stories as a guide.
+
+- As a graduate, I would like easy access to access to course information and course enquiry forms in order to upskill for the pharma industry.
+**Pathways tested (all passed)**: Navigate to Courses Enquiry form from home by;
+   1. **Navbar** Clicking Courses (Navbar link on desktop, opening drawer on mobile), or Learn More button in courses section, scroll to form.
+   2. **CTA Button** Click Enquire button, direct access to form in one click.
+   3. **Mobile CTA Button** On mobile or small tablets, right thumb click Enquire button for direct access.
+**Responsive Behaviour**: 
+1. Course section cards align horizontally on XL screens and up, 2*2 on md and lg, stack horizontally on small screens.
+2. Navbar links are replaced by drawer on mobiles. Enquire button in navbar is replaced with sticky "Enquire" right thumb button.
+3. Enquiry form responds to screens by stalking fields vertically on mobile screen and a 2*2 grid on larger screens.
+**Form validation**:  on Valid submission Redirect to /thank-you with follow-up details. Invalid entries show inline errors. 
+
+- As a potential student, I would like to see details of each course offering so I can compare and the enquiry.
+**Pathways tested (all passed)**: Navigate to Courses Enquiry form from home by
+1. **January Intake**: Home → " Click on Overlay January Intake Now Open" → Courses page tabs.
+2. **Navbar**: Home → **Courses** → Auto-open first tab. 
+3. **Scroll Section**: Home → Scroll to courses grid, see course categories, click Learn More.
+Tab validation**: All 5 course tabs switch correctly, show course details. Nav-Pills and details stack horizontally, thumb-friendly.
+
+- As current employee, I would like to choose a course I feel would be the best pick to advance my career. I would like to sign up for a  webinar or an Open day to  assesswhat your courses can offer me.
+- As a career transitioner, I want a guidance form so I get advice without knowing exact course fit.
+- As a potential student or HR associate, I want a testimonials carousel so I trust your life sciences course and training programs.
+
+**Responsive Behaviour**: 
+1. Course section cards align horizontally on XL screens and up, 2*2 on md and lg, stack horizontally on small screens.
+2. Navbar links are replaced by drawer on mobiles. Enquire button in navbar is replaced with sticky "Enquire" right thumb button.
+3. All forms respond to screensize by stalking fields vertically on mobile screen and a 2*2 grid on larger screens.
+
 ## W3C Validators
 - No errors returned for HTML and CSS W3C Validator and Jigsaw respectively. 
 
