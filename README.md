@@ -45,51 +45,74 @@ Key features include:
 - Technical Details: Uses Bootstrap's navbar and offcanvas components, with JavaScript for offset scrolling to account for the fixed navbar height.
 
 ### Screenshots
-![Navbar](screenshots\navbar-desktop.png)
-![Navbar Drawer](screenshots\navbar-drawer.png)
+![Navbar](screenshots\navbar-desktop.webp)
+![Navbar Drawer](screenshots\navbar-drawer.webp)
 ## 2. Hero Carousel
 - Automatic image carousel showcasing key messages:  for this demo version it shows course intake announcements, open days, and graduation highlights.
 - Includes overlay text captions with calls-to-action (e.g., "Learn More" buttons linking to courses or events).
 - Technical Details: Built with Bootstrap carousel, enhanced with custom CSS for caption styling.
 ### Screenshots
-![Hero Image Carousel with logo](screenshots\hero-image-1.png)
-![Hero Image 2 showing glassomorphic overlay](screenshots\hero-image-2.png)
+![Hero Image Carousel with logo](screenshots\hero-image-1.webp)
+![Hero Image 2 showing glassomorphic overlay](screenshots\hero-image-2.webp)
 
-## 3. Courses Showcase
+## 3. Courses Section
 - Grid of Bootstrap cards featuring images that showcase the types of courses offered: Pharmaceutical Manufacturing, Business, Medical Devices, and Digital Transformation.
 - Each card links to the detailed courses page; includes a "Learn More" button for easy access.
 - Responsive layout that adapts from 1 column on mobile to 4 columns on large screens.
 - Technical Details: Uses Bootstrap grid and cards, styled with custom CSS
+### Screenshots
+![Courses Section on Home Page](screenshots\course-home.webp)
+
 ## 4. Events Section
 - Table listing upcoming webinars and open days with dates, times, and event names.
 - Includes a "Register Now" button linking to the events page.
 - Informational text about live events for lead nurturing.
 - Technical Details: Bootstrap table with hover effects; responsive design ensures readability on all devices.
+### Screenshots
+![Events Section on Home Page](screenshots\events-section.webp)
 ## 5. Testimonials Carousel
 - Video carousel featuring student testimonials to build trust and credibility.
 - Navigation controls for manual browsing.
-- Technical Details: Bootstrap carousel with <video> elements.
+- Technical Details: Bootstrap carousel with <video> elements style and made respponsive with CSS.
+![Testimonials Section on Home Page](screenshots\testimonials.webp)
+
 ## 6. Sticky Call-to-Action (CTA)
 -On mobiles, the Enquire button in navbar is replaced by a floating "Enquire" button in the right thumb position for persistent access to enquiry forms throughout the website.
 -Links directly to the course enquiry form.
 -Technical Details: HTML button positioned with CSS position: sticky.
+
+![Sticky CTA button on mobile screens](screenshots\sticky-cta-mobile.webp)
+
 ## 7. Footer with Contact Information
 Comprehensive contact details: address, phone, email, and social media links.
 Includes a "Career Guidance" section with a direct link to Career guidance form.
 Social media icons for Instagram, Facebook, and X.
-Technical Details: Implemented using Bootstrap grid layout, utility classes and Font Awesome icons. Customised w
+Technical Details: Implemented using Bootstrap grid layout, utility classes and Font Awesome icons.
+
+![Footer](screenshots\footer.webp)
+
 ## 8. Lead Generation Forms and Pathways
 Multiple enquiry pathways: direct "Enquire" buttons, career guidance form, and event registration.
 Forms are accessible within 3 clicks from the homepage, aligning with user needs.
 Technical Details: Forms implemented with Bootstrap form controls and responsive grid. Forms redirect to success page on submission of form.  
+
+![Enquiry Form](screenshots\enquiry-form.webp)
+![Enquiry Form Redirect page on submission of form](screenshots\enquiry-form-submission.webp)
+
+
 ## 9. Detailed Courses Page with Tabs
 Interactive tabbed interface for exploring courses
 Each tab displays details of a course: delivery locations, entry requirements, curriculum overview, and funding information which allows users to compare courses easily without page reloads.
 Technical Details: Built with Bootstrap nav-pills and tab content. Customised with CSS
+
+![screenshot of course tabs](screenshots\courses-tab.webp)
+
 ## 10. Events Page with Accordion
 Collapsible accordion layout for detailed event information, enabling users to expand specific events for more details (e.g., descriptions, registration links).
 Supports multiple events with clean, space-efficient design.
 Technical Details: Uses Bootstrap accordion component; ensures only one panel expands at a time for better UX.
+
+![Screenshot of Events Accordion](screenshots\events-accordion.webp)
 
 
 # Bugs
