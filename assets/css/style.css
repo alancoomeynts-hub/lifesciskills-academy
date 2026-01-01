@@ -130,6 +130,7 @@ h6 {
 }
 
 /*style for sticky cta button mobile screen*/
+/* Source: https://stackoverflow.com/questions/39617803/sticky-bottom-button-only-on-mobile */
 .sticky-cta {
   display: inline;
   position: fixed;
@@ -166,6 +167,7 @@ h6 {
 }
 
 /* creates glass box and background for hero-image carousel captions.*/
+/* Source: https://blog.openreplay.com/create-glassmorphic-ui-css/ */
 .carousel-caption {
   /* Styles for glassmorphic background*/
   background: rgba(255, 255, 255, 0.15);
@@ -199,6 +201,7 @@ h6 {
 }
 
 /*set dimensions of LifeSciScience Academy logo on first carousel item image and center it*/
+/*Source: https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/ */
 #hero-image-logo {
   max-width: 800px;
   height: fit-content;
@@ -258,6 +261,7 @@ h6 {
 
 /*Events Section*/
 /*style the events table on home page to match site color scheme by overriding bootstrap variables*/
+/*overriding bootstrap variables source:  https://blog.getbootstrap.com/2022/05/16/using-bootstrap-css-vars/ */
 #events-home .table {
   --bs-table-bg: var(--tertiary);
   --bs-table-color: var(--primary);
@@ -267,6 +271,7 @@ h6 {
 /* Testimonials Section*/
 
 /*styles to prevent carousel button overlapping youtube video controls*/
+/*source:  https://forum.bootstrapstudio.io/t/struggling-with-a-video-carousel/11983/7*/
 #testimonials .carousel-inner {
   padding: 2rem;
   margin: auto;
@@ -307,6 +312,7 @@ h6 {
 
 /*events page*/
 /*customise accordion to match site color scheme by overriding bootstrap variables*/
+/*source:   https://blog.getbootstrap.com/2022/05/16/using-bootstrap-css-vars/ */
 #event-accordion {
   --bs-accordion-bg: var(--tertiary);
   --bs-accordion-btn-bg: var(--secondary);

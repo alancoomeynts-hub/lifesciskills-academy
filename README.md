@@ -1,5 +1,6 @@
 ﻿# LifeSciSkills Academy
 
+# UX
 ## Primary Goals:
  - Showcase range of programs in life sciences manufacturing offered by LifeSciSkills Academy
  - Generate leads for potential students and contacts for B2B development.
@@ -29,6 +30,36 @@
 - As a career transitioner, I want a guidance form so I get advice without knowing exact course fit.
 - As a potential student or HR associate, I want a testimonials carousel so I trust your life sciences course and training programs.
 - As an HR associate for manufacturing company, I want a way to contact you to arrange bespoke training or private intake.
+
+## Design Choices
+
+### Color Scheme
+The color palette was selected from Color Hunt to evoke professionalism and trust, essential for an educational institution in the pharmaceutical industry:
+- **Primary Navy (#1b3c53):** - used for navigation and main content areas
+- **Secondary Blue (#456882):** - for headings and interactive elements
+- **Warm Beige (#d2c1b6):** - used for background
+- **Ivory (#f9f3ef):** Used for content cards and text
+- **Gold Accent (#e8b923):** Highlights calls-to-action and important information.
+
+### Typography
+- **DM Serif Display:** Used for headings 
+- **Inter:** - for body text
+
+### Layout & Navigation
+- **Fixed Navigation Bar:** Ensures constant access to key pages and the primary CTA button.
+- **Sticky CTA Button (Mobile):** Positioned in the right thumb zone on mobile devices for easy one-handed access.
+- **Three-Click Rule:** All forms and key information are accessible within three clicks from the homepage.
+
+### Component Selection
+- **Carousel (Hero Section):** Showcases multiple key messages (intake announcements, events, brand identity) 
+- **Tabs (Courses Page):** Allows easy course comparison without page reloads or excessive scrolling, supporting the user need for quick information access
+- **Accordion (Events Page):** Presents event details in expandable sections.
+- **Bootstrap Cards:** Provides a flexible, responsive grid system.
+
+### Responsive Design
+Mobile-first approach with breakpoints at 576px, 768px, 992px, and 1200px ensures optimal experiences across devices:
+- Navigation transitions from fixed button to offcanvas drawer on smaller screens
+- Content grids stack vertically on mobile, expand to multi-column layouts on tablets and desktops
 
 ## Wireframes
 
@@ -77,7 +108,7 @@ Key features include:
 ## 5. Testimonials Carousel
 - Video carousel featuring student testimonials to build trust and credibility.
 - Navigation controls for manual browsing.
-- Technical Details: Bootstrap carousel with <iframe> elements style and made respponsive with CSS.
+- Technical Details: Bootstrap carousel with iframe elements style and made respponsive with CSS.
 
 ### Screenshot
 ![Testimonials Section on Home Page](screenshots/testimonials.webp)
@@ -176,6 +207,28 @@ Website was thoroughly tested using user personas and stories as a guide.
 ## W3C Validators
 - No errors returned for HTML and CSS W3C Validator and Jigsaw respectively. 
 
+## Technologies Used
+
+### Languages
+- HTML5
+- CSS3
+
+### Frameworks & Libraries
+- Bootstrap 5.3.8
+- Font Awesome (icons)
+
+### Tools & Resources
+- Google Fonts (DM Serif Display, Inter)
+- VS Code (development environment)
+- Git & GitHub (version control and deployment)
+- GitHub Pages (hosting)
+- Logo.com (logo generation)
+- Artlist.io (images and videos)
+- Color Hunt (color palette)
+- TinyPNG (image compression)
+- W3C Validators (HTML/CSS validation)
+- Chrome DevTools (debugging and testing)
+
 ## Lighthouse Automated Testing
 Lighthouse audited the deployed site using Navigation mode across Performance, Accessibility, and Best Practices categories. Performance and Accessibility reached 99% by addressing these optimizations:
 
@@ -216,7 +269,7 @@ Lighthouse audited the deployed site using Navigation mode across Performance, A
  - Enquire now button felt out of place in the drawer on nav screen. To solve I made the button display none by default and used a media button to make it visible again at 992px breakpoint.
  - Sticky CTA button for mobile/ touchscreens: Inspired by https://stackoverflow.com/questions/39617803/sticky-bottom-button-only-on-mobile
    Customised to fit project using CSS tutorial on W3S.
-- Had some trouble centring images in the hero carousel. Tried to use background property initially before realising this does not work on img elements. Options were to remove img element and use background on carousel-item or  use object-fit: center on img elementsas suggested by W3C: https://www.w3schools.com/css/css3_object-fit.asp
+- Had some trouble centring images in the hero carousel. Tried to use background property initially before realising this does not work on img elements. Options were to remove img element and use background on carousel-item or  use object-fit: center on img elements as suggested by W3C: https://www.w3schools.com/css/css3_object-fit.asp
 - Initally the carousel caption backgrounds were overflowing when container becomes too small for contents. Solution media query to to set max-height for small screens and flex to captions to dynamically adjust height and centre the contents. Overflow was also issue when height is restricted, problem for phones in landscape mode (height <~600px>). Solution to add landscape orientation media query to adjust caption background height. Solution source: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 - I had difficult overriding bootstrap tables and nav-pills classes. Using devtools saw bootstrap table class has higher specificity variables. Used custom CSS to target these and customise table text color, background and cell borders, and the text of inactive nav-pills. Source: https://blog.getbootstrap.com/2022/05/16/using-bootstrap-css-vars/
 - Testimonals video embedded using iframes with bootstrap carousel and ratio ratio-16x9 for aspect ratio. Css style to prevent carousel buttons overlapping Youtube fullscreen button inspired by https://forum.bootstrapstudio.io/t/struggling-with-a-video-carousel/11983/7 adjusted to fit site.
