@@ -263,14 +263,17 @@ h6 {
 
 /* Testimonials Section*/
 
+#testimonials .carousel-inner {
+  padding: 2rem;
+  margin: auto;
+  max-width: 800px;
+}
 
 /*style testimonial video to be responsive*/
-#testimonials iframe{
-  
-  height: 600px;  
+#testimonials iframe {
+ 
   border-radius: 1rem;
  
-  
 }
 
 /* Courses Page*/
@@ -373,9 +376,7 @@ h6 {
     max-width: 90%;
   }
 
-  #testimonials iframe{
-    height: 250px;
-  }
+
 }
 
 @media screen and (max-width: 576px) {

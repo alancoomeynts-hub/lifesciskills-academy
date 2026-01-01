@@ -212,10 +212,13 @@ Lighthouse audited the deployed site using Navigation mode across Performance, A
 - Had some trouble centring images in the hero carousel. Tried to use background property initially before realising this does not work on img elements. Options were to remove img element and use background on carousel-item or  use object-fit: center on img elementsas suggested by W3C: https://www.w3schools.com/css/css3_object-fit.asp
 - Initally the carousel caption backgrounds were overflowing when container becomes too small for contents. Solution media query to to set max-height for small screens and flex to captions to dynamically adjust height and centre the contents. Overflow was also issue when height is restricted, problem for phones in landscape mode (height <~600px>). Solution to add landscape orientation media query to adjust caption background height. Solution source: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 - I had difficult overriding bootstrap tables and nav-pills classes. Using devtools saw bootstrap table class has higher specificity variables. Used custom CSS to target these and customise table text color, background and cell borders, and the text of inactive nav-pills. Source: https://blog.getbootstrap.com/2022/05/16/using-bootstrap-css-vars/
+- Testimonals video embedded using iframes with bootstrap carousel and ratio ratio-16x9 for aspect ratio
+
 
 # Bugs
 - Displacement glitch in hero carousel on index.html when carousel transitions to and from image 1. Maybe be related to additional caption overlay.
 - Carousel Controls hard to see against light background, unable to find a way to target and change color of carousel buttons.
+
 
 # Media
 
@@ -229,9 +232,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://alancoomeynts-hub.github.io/lifesci-skills-academy/index.html
-
-
-
 
 
 
