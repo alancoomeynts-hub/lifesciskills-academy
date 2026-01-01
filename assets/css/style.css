@@ -325,7 +325,7 @@ h6 {
   padding: 0.25rem;
 }
 
-/*Style the active nav pill*/
+/*Style the active nav pills to stand out*/
 #course-tabs .nav-pills .nav-link.active {
   background-color: var(--highlight);
   border: 3px solid var(--primary);
