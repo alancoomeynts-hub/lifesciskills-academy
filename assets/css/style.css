@@ -251,6 +251,8 @@ h6 {
 /*style card images to have rounded corners*/
 .card .card-img-top {
   border-radius: 1rem;
+  width: 100%;
+  height: auto;
 }
 
 
