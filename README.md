@@ -34,7 +34,8 @@
 
 - Home Page (320px-576px-768px>1200px): ![Home page wireframe](wireframes/home-page-wireframe.webp)
 - Courses Page (320px-768px > 768px>): ![Courses Page Wireframe](wireframes/course-page-wireframe.webp)
-- Events Page (320px-768px > 768px>): ![Events Page Wireframe](wireframes/events-page-wireframe.webp)
+- Events Page (320px-768px > 768px>):
+ ![Events Page Wireframe](wireframes/events-page-wireframe.webp)
 
 # Features
 This website is built as a responsive, static site using HTML, CSS with Bootstrap to provide an intuitive user experience for potential students of LifeSciSkill Academy.
