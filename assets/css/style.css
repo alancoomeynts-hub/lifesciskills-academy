@@ -264,6 +264,7 @@ h6 {
 
 /* Testimonials Section*/
 
+/*styles to prevent carousel button overlapping youtube video controls*/
 #testimonials .carousel-inner {
   padding: 2rem;
   margin: auto;
@@ -405,7 +406,7 @@ h6 {
 
 @media screen and (max-width: 1200px){
   #testimonials .carousel-inner {
-    width: 90%;
+    width: 85%;
     padding: 1rem;
   }
 }
