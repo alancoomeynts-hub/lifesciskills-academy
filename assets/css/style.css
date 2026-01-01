@@ -198,7 +198,7 @@ h6 {
   text-shadow: 3px 3px 12px rgba(0, 0, 0, 1);
 }
 
-/*set dimensions of LifeSciScience Academy logo on first carousle item image and center it*/
+/*set dimensions of LifeSciScience Academy logo on first carousel item image and center it*/
 #hero-image-logo {
   max-width: 800px;
   height: fit-content;
@@ -252,6 +252,8 @@ h6 {
 .card .card-img-top {
   border-radius: 1rem;
 }
+
+
 /*Events Section*/
 /*style the events table on home page to match site color scheme by overriding bootstrap variables*/
 #events-home .table {
@@ -307,7 +309,7 @@ h6 {
   --bs-accordion-btn-bg: var(--secondary);
   --bs-accordion-btn-color: var(--tertiary);
   --bs-accordion-color: var(--primary);
-  --bs-accordion-border-color: var(--highlight) b;
+  --bs-accordion-border-color: var(--highlight);
 }
 /*styles for accordion item when expanded*/
 .accordion-item {
@@ -399,11 +401,11 @@ h6 {
   .carousel-caption {
     height: 90%;
   }
+}
 
 @media screen and (max-width: 1200px){
   #testimonials .carousel-inner {
     width: 90%;
     padding: 1rem;
   }
-}
 }
