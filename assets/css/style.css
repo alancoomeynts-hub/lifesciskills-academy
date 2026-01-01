@@ -409,4 +409,8 @@ h6 {
     width: 85%;
     padding: 1rem;
   }
+
+  #testimonials .carousel-control-next, #testimonials .carousel-control-prev {
+    width: 5%;
+  }
 }
